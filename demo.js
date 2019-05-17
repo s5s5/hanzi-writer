@@ -14,7 +14,7 @@ function updateCharacter() {
     width: 300,
     height: 300,
     showOutline: shouldShowOutline('animation'),
-    strokeAnimationSpeed: 3,
+    strokeAnimationSpeed: 2,
     delayBetweenStrokes: 10,
     delayBetweenLoops: 1000,
     showCharacter: false
