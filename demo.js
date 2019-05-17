@@ -14,6 +14,7 @@ function updateCharacter() {
     width: 300,
     height: 300,
     showOutline: shouldShowOutline('animation'),
+    strokeAnimationSpeed: 5,
     showCharacter: false
   });
   quizWriter = HanziWriter.create('quiz-target', character, {
