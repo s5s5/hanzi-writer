@@ -15,7 +15,8 @@ function updateCharacter() {
     height: 300,
     showOutline: shouldShowOutline('animation'),
     strokeAnimationSpeed: 3,
-    delayBetweenStrokes: 5,
+    delayBetweenStrokes: 10,
+    delayBetweenLoops: 1000
     showCharacter: false
   });
   quizWriter = HanziWriter.create('quiz-target', character, {
