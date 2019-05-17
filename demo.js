@@ -19,6 +19,7 @@ function updateCharacter() {
     delayBetweenLoops: 1000,
     showCharacter: false
   });
+  animationWriter.loopCharacterAnimation();
   quizWriter = HanziWriter.create('quiz-target', character, {
     width: 300,
     height: 300,
